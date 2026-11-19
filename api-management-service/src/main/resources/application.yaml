@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: api-management-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gatekeeper_management
+    username:
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
+
+server:
+  port: 8081
+
+info:
+  app:
+    name: API Management Service
+    description: Management service for users, routes and gateway policies

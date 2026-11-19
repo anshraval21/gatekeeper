@@ -1,0 +1,1 @@
+INSERT INTO management_users(organization_id, role_id, username, password, enabled, created_at, updated_at)
